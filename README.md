@@ -1,6 +1,6 @@
 # Admin-Dashboard
  
-This Admin Dashboard is designed for managing various content and administrative tasks efficiently. Built using modern web technologies, the dashboard layout offers easy navigation, user-friendly interaction, and a responsive design that adapts to different screen sizes.
+This Admin Dashboard is designed for managing various content and administrative tasks efficiently. Built using modern web technologies, the dashboard layout offers easy navigation, user-friendly interaction, and a responsive design that adapts to different screen sizes. This projects will be describing about when we use Grid layout and Flex layout. This is the perfect example when we use them both.
 
 Features
 - Responsive Layout: The dashboard is designed using CSS Grid to ensure that the layout adapts well to different screen sizes and devices.
