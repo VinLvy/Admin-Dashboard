@@ -377,3 +377,81 @@ hr {
     align-self: center;
     color: dimgrey;
 }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        grid-template-columns: 200px 1fr;
+    }
+
+    .input-search {
+        padding-left: 20px;
+    }
+
+    .buttons {
+        margin-right: 20px;
+    }
+
+    .bottom-right {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "projects"
+            "announcements"
+            "trending";
+    }
+
+    .menu-1, .menu-2 {
+        grid-template-rows: repeat(6, 40px);
+    }
+
+    .card {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        grid-template-columns: 1fr;
+    }
+
+    .main-content {
+        grid-template-rows: auto 1fr;
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "search"
+            "introduction"
+            "icons"
+            "buttons";
+    }
+
+    .bottom-right {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "projects"
+            "announcements"
+            "trending";
+    }
+
+    .card {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .buttons button {
+        width: 60px;
+        height: 30px;
+        font-size: 0.9em;
+    }
+
+    .menu-1, .menu-2 {
+        grid-template-columns: 40px 1fr;
+    }
+}

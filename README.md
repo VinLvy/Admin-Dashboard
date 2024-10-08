@@ -13,6 +13,7 @@ Features
 - Icons: Dashboard includes icons for better visual representation and quick recognition of actions and sections.
 
 Customization
+
 You can easily customize the dashboard by modifying the following elements:
 
 - Colors: The main colors are defined in the CSS, and can be customized for branding purposes.
@@ -20,7 +21,5 @@ You can easily customize the dashboard by modifying the following elements:
 - Grid Layout: The CSS grid system is used to structure the page layout. You can modify grid-template columns and rows to change the layout.
 
 Contributing
-Contributions are welcome! If you find bugs or want to add features, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Contributions are welcome! If you find bugs or want to add features, feel free to open an issue or submit a pull request.
